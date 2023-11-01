@@ -11,5 +11,3 @@ stages:
     job: Over
     steps:
       script: echo Goodbye
- 
- 
