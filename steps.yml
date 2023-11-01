@@ -1,0 +1,13 @@
+stages:
+  - stage: Display
+    jobs:
+      - job: greetings
+        steps:
+          script: echo Hello world!
+      - job: welcome
+        steps:
+          script: echo Welcome Everyone
+  - stage: End
+    job: Over
+    steps:
+      script: echo Goodbye
