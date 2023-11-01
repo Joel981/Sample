@@ -1,6 +1,3 @@
-
-
- 
 stages:
   - stage: Display
     jobs:
