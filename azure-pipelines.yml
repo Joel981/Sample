@@ -5,9 +5,8 @@
 
 trigger:
 - main
-
 pool:
   vmImage: ubuntu-latest
 steps:
-  - template: steps.yml
+- template: steps.yml
 
