@@ -7,6 +7,6 @@ trigger:
 - main
 pool:
   vmImage: ubuntu-latest
-steps:
+stages:
 - template: demo.yml
 
