@@ -1,5 +1,5 @@
 parameters:
-name: name
+- name: name
 stages:
 - stage: Display
   jobs:
