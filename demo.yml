@@ -1,3 +1,5 @@
+parameters:
+name: name
 stages:
 - stage: Display
   jobs:
@@ -11,4 +13,4 @@ stages:
   jobs:
   - job: Over
     steps:
-    - script: echo Goodbye
+    - script: echo Goodbye ${{parameters.name}}
