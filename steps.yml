@@ -1,2 +1,2 @@
-steps:
+stages:
 - script: echo repos connected
